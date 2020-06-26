@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>Stellar Homes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="responsiveslides.min.js"></script>
+        <script>
+            $(function () {
+        
+              // Slideshow 1
+              $("#slider1").responsiveSlides({
+                maxwidth: 800,
+                speed: 800
+              });
+        
+              // Slideshow 2
+              $("#slider2").responsiveSlides({
+                auto: false,
+                pager: true,
+                speed: 300,
+                maxwidth: 540
+              });
+        
+              // Slideshow 3
+              $("#slider3").responsiveSlides({
+                manualControls: '#slider3-pager',
+                maxwidth: 540
+              });
+        
+              // Slideshow 4
+              $("#slider4").responsiveSlides({
+                auto: false,
+                pager: false,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                  $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                  $('.events').append("<li>after event fired.</li>");
+                }
+              });
+        
+            });
+          </script>
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.htm" class="logo"><img src=http://www.stellarhomes.us/images/stel_imag/SH-icon.gif></a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+              <li><a href="forSale.htm">For Sale</a></li>
+              <li><a href="forLease.htm">For Lease</a></li>
+              <li><a href="housePlans.htm">House Plans</a></li>
+              <li><a href="aboutUs.htm">Contact</a></li>
+            </ul>
+        </header>
+        <div class=banner>
+            <br><br><br>
+            <p>Email: <a style="color:rgb(252, 252, 253);text-decoration: underline;" href=mailto:info@stellarhomes.us>info@stellarhomes.us</a></p>
+            <p>Phone: <a style="color:rgb(252, 252, 253);text-decoration: underline;"href=tel:254-933-8807>254-933-8807</a></p>
+        </div>
+        <br>
+        <img class="center" src="icon.png" style="max-width: 90px; height: auto; margin-top: 15px;">
+        <h1 style="text-align:center;font-size:45px; margin-bottom:15px;">Stellar Homes</h1>
+        <h2 style="text-align:center;font-size:20px;font-weight: 400;color:#a3a3a3;margin-right:15px;margin-left:15px;">Building homes with meticulous attention to detail!</h2>
+        <br>
+        <ul class="rslides center" id="slider1"style="position: relative;list-style: none;overflow: hidden;width: 100%;padding: 0;margin: 0 auto 40px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+            <a href="lasColinas.htm"><li><img src="http://www.stellarhomes.us/images/stel_imag/LasColinasHome.jpg" alt=""></li></a>
+            <a href="theArbors.htm"><li><img src="http://www.stellarhomes.us/images/stel_imag/Arbors/Arbors.jpg" alt=""></li></a>
+            <a href="hpEstates.htm"><li><img src="https://i.imgur.com/tldrPBp.jpg" alt=""></li></a>
+        </ul>
+        <div class="grid-container shadow">
+
+            <div class="grid-child purple">
+                <img class=center style="border-radius:10%;height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/5823/1.JPG">
+            </div>
+            <div class="grid-child green">
+                <h2 style="text-align:center;font-size:20px;font-weight: 600;color:#000;">Deerfield Model Home</h2>
+            </div>
+        </div>
+        <br><br>
+        <div class="grid-container shadow">
+
+            <div class="grid-child purple">
+                <img class=center style="border-radius:10%;height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/2205/1.JPG">
+            </div>
+            <div class="grid-child green">
+                <h2 style="text-align:center;font-size:20px;font-weight: 600;color:#000;">The Arbors and Highland Park Model Home</h2>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h1 style="text-align:center;font-size:17px; margin-bottom:15px;margin-left:15px;color:#4b4b4b">• With over 50 years experience in engineering practices, we provide unmatched expertise through exceptional craftsmanship and efficiency.</h1>
+            <h1 style="text-align:center;font-size:17px; margin-bottom:15px;margin-left:15px;color:#4b4b4b">• Build on your lot or ours, or we will help you find a lot in Belton, Temple, Morgan's Point, Salado, Holland, Rogers, Jarrell, or anywhere in Central Texas.</h1>
+            <h1 style="text-align:center;font-size:17px; margin-bottom:15px;margin-left:15px;color:#4b4b4b">• Give us a call:  we will demonstrate how we stand out amongst custom builders!</h1>
+        </div>
+        <br><br>
+        <div class=footer>
+            <p>WE PAY COMMISSIONS: on Stellar's Lot, 4% of lot price paid at time of lot closing + 1.5% of lot price as finder fee paid at closing of completed home.  On customer's lot (not our lot), 1% of construction price paid at final closing of completed home.</p>
+        </div>
+    </body>
+</html>
