@@ -24,9 +24,9 @@ h1{
     color: #fff;
 }
 .shadow{
-    box-shadow: 0px 0px 54px -30px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 54px -30px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 54px -30px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 54px -20px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 54px -20px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 54px -20px rgba(0,0,0,0.75);
 }
 .center {
     display: block;
