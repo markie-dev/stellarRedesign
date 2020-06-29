@@ -7,10 +7,12 @@
         <link rel="stylesheet" href="royalslider\skins\universal\rs-universal.css">
         <script src='royalslider/jquery-1.8.3.min.js'></script>
         <script src="royalslider/jquery.royalslider.min.js"></script>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
     </head>
     <body><div class=container>
         <header class="header">
-            <a href="index.htm" class="logo"><img src=SH-icon_50.gif></a>
+            <a href="index.html" class="logo"><img src=SH-icon_50.gif></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
@@ -27,13 +29,13 @@
         </div>
         <div>
             <br>
-                    <h1 style="margin-left:10vw;margin-bottom: 0px;line-height: 0px;font-size: 30pt">Las Colinas</h1><br>
-                    <h2 style="margin-left:10vw;margin-bottom: 0px;line-height: 0px;font-size: 25pt">Belton, TX</h2><br>
-                    <h1 style="margin-left:10vw;margin-bottom: 0px;line-height: 0px;font-size: 30pt;color:#38406d">$400,000+</h1>
+                    <h1 style="margin-left:10%;margin-bottom: 0px;line-height: 0px;font-size: 30pt">Las Colinas</h1><br>
+                    <h2 style="margin-left:10%;margin-bottom: 0px;line-height: 0px;font-size: 25pt">Belton, TX</h2><br>
+                    <h1 style="margin-left:10%;margin-bottom: 0px;line-height: 0px;font-size: 30pt;color:#38406d">$400,000+</h1>
         </div>
+        <br> <br>
         <br>
-        <br>
-        <div id="gallery-2" class="royalSlider rsUni">
+        <div id="gallery-2" class="royalSlider rsUni shadow">
             <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" data-rsw="2048" data-rsh="1536"></a>
             <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/LC/2.jpg" data-rsw="2048" data-rsh="1536"></a>
             <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/LC/3.jpg" data-rsw="2048" data-rsh="1536"></a>
@@ -86,11 +88,55 @@
             <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/6735LC/5.jpg" data-rsw="2048" data-rsh="1536"></a>
           </div>
           <div>
-              <h1 style="text-align: center;font-size: 36pt;">Features</h1>
+            <h1 style="margin-left:10%;font-size: 30pt;">Overview</h1>
+            <ul style="margin-left:10%;font-size: 20pt;margin-right: 40px">
+              <li>Luxurious interior designs - must see fabulous attention to detail!</li>
+              <li>Only 5 Minutes from Scott & White Hospital</li>
+              <li>Near 31st street on HWY 93</li>
+              <li>Green Zone strip</li>
+              <li>Half, One, and Two Acre Lots</li>
+              <li>Security, Sprinkler System, Fully Sodded</li>
+              <li>Natural Gas, City Water and Sewer</li>
+              <li><a style="text-decoration: underline;" href="http://www.academy.k12.tx.us/">Academy Independent School District</a> (assigned schools)</li>
+        <li><a style="text-decoration: underline;" href="http://www.tisd.org/">Temple Independent School District</a> (No transfer fee to attend Temple schools)</li>
+        <li><a style="text-decoration: underline;" href="http://www.ctcslions.com/">Central Texas Christian School</a> (private)</li>
+        <li><a style="text-decoration: underline;" href="http://www.stellarhomes.us/Las_Colinas_restrictions.pdf">Restrictions</a></li>
+        <li><a style="text-decoration: underline;" href="http://www.stellarhomes.us/LasColinas_PLUS.jpg">Plat Detail and Lot Prices</a></li>
+            </ul>
           </div>
-        <div>
-            <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.647296068482!2d-97.38809828500219!3d31.036074978000823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864514db117cbd21%3A0xb9fa61f4d94fb159!2s6830%20Las%20Colinas%20Dr%2C%20Temple%2C%20TX%2076502!5e0!3m2!1sen!2sus!4v1593172619860!5m2!1sen!2sus" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
-        </div>
+          <div class=apple>
+              <h1 style="margin-left:10%;font-size: 30pt;">Features</h1>
+              <ul style="margin-left:10%;font-size: 20pt;margin-right: 40px">
+                <li>All homes in the Las Colinas subdivision feature high end designs with high ceilings in living areas and bedrooms. Kitchens are equipped with 'gourmet' grade appliances and fully custom hardwood cabinets.</li>
+                <li>Great care is given to all facets of the construction process including the meticulous design of the foundation, framing, plumbing and other non-visible areas of the home. While many homebuilders have switched to cheaper construction methods, Stellar has chosen to maintain its quality position with such items as high efficiency polyurethane insulation (icynene) in attics and walls, extended warranty Termidor termite barrier FULL pre-treat, slip sheet protection for tile areas, 16" center studs and joists, and on-demand continuous gas water heaters.</li>
+                <li>Each home will be further accented by designer finish faucets, designer light fixtures, high grade flooring, a maintenance-free remote controlled gas fireplace, and many more features you will enjoy.</li>
+              </ul>
+              <br>
+              <h1 style="margin-left:10%;font-size: 30pt;">Location</h1>
+              <ul style="margin-left:10%;font-size: 20pt;margin-right: 40px">
+                <li>Temple's Las Colinas subdivision offers an ideal setting for spectacular views and generous home-sites together with spacious and feature rich homes, while still nestled in the heart of Temple's bustling community.</li>
+                <li>Only a few minutes south of Scott and White Hospital, the Temple Mall, and Sam's Club, this quiet family oriented community features gently meandering roads, tall mature trees (pecan, elm, live oak) on oversized lots. Perched atop one of the highest points in Temple, Las Colinas (the hills) boasts unparalleled views of Temple's surroundings.</li>
+                <br>
+                <li>Residents will enjoy easy access to the I-35 corridor running north to Waco (half hour) and Dallas (2 hours) and south to Austin (1hour) and San Antonio (2 hours). Houston (2.75 hours) is also an easy jaunt right off highway 93.</li>
+                <li>Locally, it is centrally located with quick access to top notch private educational institutions (Central Texas Christian School and University of Mary Hardin Baylor) as well as public schools (Temple College and Academy Independent School District).</li>
+                <li>Nearby, the South Temple Community Park offers a serene location for family outings and picnicking, wonderful for disc golf, frisbee, and kites. And, within minutes, Temple Lake Park offers swimming, boating, kayaking, wind surfing, and other water sports. Why settle for anything less?</li>
+              </ul>
+          </div>
+          <br>
+        <div class=shadow id='map' style='width: auto; height: 300px;'></div>
+        <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY3VzZGUyMyIsImEiOiJja2MwcHo2NzcxbWEyMnNxZDduMDd0cHhnIn0.LldKpupBzohSRo2XlT2dQQ';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+        center: [-97.386007, 31.035840], // starting position [lng, lat]
+        zoom: 11 // starting zoom
+        });
+        var marker = new mapboxgl.Marker()
+.setLngLat([-97.386007, 31.035840])
+.setPopup(new mapboxgl.Popup().setHTML("<a href=http://maps.apple.com/?daddr=6830+Las+Colinas+Dr,+Temple+TX><h1>6830 Las Colinas Dr</h1></a>"))
+.addTo(map);
+        </script>
         <br><br>
         <br><br>
         <div class=footer>
@@ -111,7 +157,7 @@ jQuery(document).ready(function() {
     },
     transitionType:'fade',
     autoScaleSlider: true, 
-    autoScaleSliderWidth: 960,     
+    autoScaleSliderWidth: 900,     
     autoScaleSliderHeight: 300,
     loop: true,
     arrowsNav: true,
