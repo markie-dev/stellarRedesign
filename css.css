@@ -1,9 +1,10 @@
 body{
-    font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin:0;height:auto;-webkit-font-smoothing:antialiased;color:#000;background:#fafafa;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;height:auto;-webkit-font-smoothing:antialiased;color:#000;background:#fafafa;
     font-weight: 500;
     width: auto;
     background-color: #FFF;
 }
+
 p { margin:0 
 }
 h1{
@@ -47,6 +48,8 @@ h1{
     align-items : center;
     justify-content: center;
 }
+/* info boxes */
+
   /* header */
   .header {
     background-color: #fff;
