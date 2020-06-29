@@ -14,10 +14,12 @@ h1{
     color: #000;
   }
 .banner{
-    padding:7px;
+    padding:15px;
     text-align: center;
     background: #38406d;
     color: #fff;
+    width: 100%;
+    z-index: 50;
 }
 .footer{
      z-index: 50;
@@ -25,7 +27,7 @@ h1{
     position:fixed;
     bottom: 0;
     width: 100%;
-    font-size: 8pt;
+    font-size: 10pt;
     text-align: center;
     background: #38406d;
     color: #fff;
