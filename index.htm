@@ -76,23 +76,28 @@
   jQuery(document).ready(function($) {
   $('#full-width-slider').royalSlider({
     arrowsNav: true,
-    loop: false,
+    imageScalePadding: 0,
+    loop: true,
     keyboardNavEnabled: true,
-    controlsInside: false,
+    controlsInside: true,
     arrowsNavAutoHide: false,
     autoScaleSlider: true, 
     controlNavigation: 'bullets',
     thumbsFitInViewport: false,
-    navigateByClick: true,
+    navigateByClick: false,
     startSlideId: 0,
-    autoPlay: true,
+    autoPlay: {
+    		enabled: true,
+        pauseOnHover: false,
+        stopAtAction: false,
+        delay: 2500
+    	},
     transitionType:'move',
     globalCaption: false,
     deeplinking: {
       enabled: true,
       change: false
     },
-    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
   });
 });
     </script>
