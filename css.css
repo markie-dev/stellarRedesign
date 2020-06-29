@@ -1,6 +1,7 @@
 body{
     font-family:-apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin:0;height:auto;-webkit-font-smoothing:antialiased;color:#000;background:#fafafa;
     font-weight: 500;
+    width: auto;
 }
 p { margin:0 
 }
@@ -11,7 +12,7 @@ h1{
     color: #000;
   }
 .banner{
-    padding:5px;
+    padding:7px;
     text-align: center;
     background: #38406d;
     color: #fff;
@@ -21,7 +22,7 @@ h1{
     left: 0;
     position:fixed;
     bottom: 0;
-    width: 100%;
+    width: auto;
     font-size: 8pt;
     text-align: center;
     background: #38406d;
