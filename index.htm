@@ -4,51 +4,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-        <script src="responsiveslides.min.js"></script>
-        <script>
-            $(function () {
-        
-              // Slideshow 1
-              $("#slider1").responsiveSlides({
-                maxwidth: 800,
-                speed: 800
-              });
-        
-              // Slideshow 2
-              $("#slider2").responsiveSlides({
-                auto: false,
-                pager: true,
-                speed: 300,
-                maxwidth: 540
-              });
-        
-              // Slideshow 3
-              $("#slider3").responsiveSlides({
-                manualControls: '#slider3-pager',
-                maxwidth: 540
-              });
-        
-              // Slideshow 4
-              $("#slider4").responsiveSlides({
-                auto: false,
-                pager: false,
-                nav: true,
-                speed: 500,
-                namespace: "callbacks",
-                before: function () {
-                  $('.events').append("<li>before event fired.</li>");
-                },
-                after: function () {
-                  $('.events').append("<li>after event fired.</li>");
-                }
-              });
-        
-            });
-          </script>
+        <link rel="stylesheet" href="royalslider/royalslider.css">
+        <link rel="stylesheet" href="royalslider/skins/default/rs-default.css">
+        <script src='royalslider/jquery-1.8.3.min.js'></script>
+        <script src="royalslider/jquery.royalslider.min.js"></script>
     </head>
-    <body>
+    <body><div class=container>
         <header class="header">
-            <a href="index.htm" class="logo"><img src=http://www.stellarhomes.us/images/stel_imag/SH-icon.gif></a>
+            <a href="index.htm" class="logo"><img src=SH-icon_50.gif></a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
             <ul class="menu">
@@ -68,14 +31,21 @@
         <h1 style="text-align:center;font-size:45px; margin-bottom:15px;">Stellar Homes</h1>
         <h2 style="text-align:center;font-size:20px;font-weight: 400;color:#a3a3a3;margin-right:15px;margin-left:15px;">Building homes with meticulous attention to detail!</h2>
         <br>
-        <ul class="rslides center" id="slider1"style="position: relative;list-style: none;overflow: hidden;width: 100%;padding: 0;margin: 0 auto 40px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-            <a href="lasColinas.htm"><li><img src="http://www.stellarhomes.us/images/stel_imag/LasColinasHome.jpg" alt=""></li></a>
-            <a href="theArbors.htm"><li><img src="http://www.stellarhomes.us/images/stel_imag/Arbors/Arbors.jpg" alt=""></li></a>
-            <a href="hpEstates.htm"><li><img src="https://i.imgur.com/tldrPBp.jpg" alt=""></li></a>
-        </ul>
+        <div id="full-width-slider" class="royalSlider heroSlider rsMinW">
+          <div class="rsContent">
+            <img data-rsw="1471" data-rsh="662" class="rsImg" src="http://www.stellarhomes.us/images/stel_imag/LasColinasHome.jpg" alt="">
+          </div>
+          <div class="rsContent">
+            <img data-rsw="1115" data-rsh="505" class="rsImg" src="http://www.stellarhomes.us/images/stel_imag/Arbors/Arbors.jpg" alt="">
+          </div>
+         <div class="rsContent">
+          <img data-rsw="1295" data-rsh="656" class="rsImg" src="https://i.imgur.com/tldrPBp.jpg" alt="">
+          </div>
+        </div>
+        <br>
         <div class="grid-container shadow">
             <div class="grid-child purple">
-                <img class=center style="border-radius:10%;height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/5823/1.JPG">
+                <img class=center style="height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/5823/1.JPG">
             </div>
             <div class="grid-child green">
                 <h2 style="text-align:center;font-size:20px;font-weight: 600;color:#000;margin-right: 15px;">Deerfield Model Home</h2>
@@ -84,7 +54,7 @@
         <br><br>
         <div class="grid-container shadow">
             <div class="grid-child purple">
-                <img class=center style="border-radius:10%;height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/2205/1.JPG">
+                <img class=center style="height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/2205/1.JPG">
             </div>
             <div class="grid-child green">
                 <h2 style="text-align:center;font-size:20px;font-weight: 600;color:#000;margin-right: 15px;">The Arbors and Highland Park Model Home</h2>
@@ -97,8 +67,34 @@
             <h1 style="margin-right: 15px;text-align:center;font-size:17px; margin-bottom:15px;margin-left:15px;color:#8f8f8f">• Give us a call:  we will demonstrate how we stand out amongst custom builders!</h1>
         </div>
         <br><br>
+        <br><br>
         <div class=footer>
             <p>WE PAY COMMISSIONS: on Stellar's Lot, 4% of lot price paid at time of lot closing + 1.5% of lot price as finder fee paid at closing of completed home.  On customer's lot (not our lot), 1% of construction price paid at final closing of completed home.</p>
         </div>
+      </div>
+      <script>
+  jQuery(document).ready(function($) {
+  $('#full-width-slider').royalSlider({
+    arrowsNav: true,
+    loop: true,
+    keyboardNavEnabled: true,
+    controlsInside: false,
+    arrowsNavAutoHide: false,
+    autoScaleSlider: true, 
+    controlNavigation: 'bullets',
+    thumbsFitInViewport: false,
+    navigateByClick: true,
+    startSlideId: 0,
+    autoPlay: true,
+    transitionType:'move',
+    globalCaption: false,
+    deeplinking: {
+      enabled: true,
+      change: false
+    },
+    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+  });
+});
+    </script>
     </body>
 </html>
