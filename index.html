@@ -1,106 +1,3 @@
-<!--<html>
-    <head>
-        <title>Stellar Homes</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css.css">
-        <link rel="stylesheet" href="royalslider/royalslider.css">
-        <link rel="stylesheet" href="royalslider\skins\universal\rs-universal.css">
-        <script src='royalslider/jquery-1.8.3.min.js'></script>
-        <script src="royalslider/jquery.royalslider.min.js"></script>
-    </head>
-    <body><div class=container>
-        <header class="header">
-            <a href="index.html" class="logo"><img src=SH-icon_50.gif></a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-              <li><a href="forSale.htm">For Sale</a></li>
-              <li><a href="forLease.htm">For Lease</a></li>
-              <li><a href="housePlans.htm">House Plans</a></li>
-              <li><a href="aboutUs.htm">About Us</a></li>
-            </ul>
-        </header>
-        <div class=banner>
-            <br><br><br>
-            <p>Email: <a style="color:rgb(252, 252, 253);text-decoration: underline;" href=mailto:info@stellarhomes.us>info@stellarhomes.us</a></p>
-            <p>Phone: <a style="color:rgb(252, 252, 253);text-decoration: underline;"href=tel:254-933-8807>254-933-8807</a></p>
-        </div>
-        <br>
-        <img class="center" src="icon.png" style="max-width: 90px; height: auto; margin-top: 15px;">
-        <h1 style="text-align:center;font-size:45px; margin-bottom:15px;">Stellar Homes</h1>
-        <h2 style="text-align:center;font-size:20px;font-weight: 400;color:#a3a3a3;margin-right:15px;margin-left:15px;">Building homes with meticulous attention to detail!</h2>
-        <div id="full-width-slider" class="royalSlider heroSlider rsMinW">
-          <div class="rsContent">
-          <a href="lasColinas.htm"> <img data-rsw="1471" data-rsh="662" class="rsImg" src="http://www.stellarhomes.us/images/stel_imag/LasColinasHome.jpg" alt=""></a>
-          </div>
-          <div class="rsContent">
-          <a href="theArbors.htm"> <img data-rsw="1115" data-rsh="505" class="rsImg" src="http://www.stellarhomes.us/images/stel_imag/Arbors/Arbors.jpg" alt=""></a>
-          </div>
-         <div class="rsContent">
-          <a href="hpEstates.htm"> <img data-rsw="1295" data-rsh="656" class="rsImg" src="https://i.imgur.com/tldrPBp.jpg" alt=""></a>
-          </div>
-        </div>
-        <br>
-        <a href=dfModelHome.htm><div class="grid-container shadow">
-            <div class="grid-child purple">
-                <img class=center style="height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/5823/1.JPG">
-            </div>
-            <div class="grid-child green">
-                <h2 style="text-align:center;font-size:20px;font-weight: 600;color:#000;margin-right: 15px;">Deerfield Model Home</h2>
-            </div>
-        </div></a>
-        <br><br>
-        <a href=ahpModelHome.htm><div class="grid-container shadow">
-            <div class="grid-child purple">
-                <img class=center style="height:auto;max-width:500px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/2205/1.JPG">
-            </div>
-            <div class="grid-child green">
-                <h2 style="text-align:center;font-size:20px;font-weight: 600;color:#000;margin-right: 15px;">The Arbors and Highland Park Model Home</h2>
-            </div>
-        </div></a>
-        <br>
-        <div>
-            <h1 style="margin-right: 15px;text-align:center;font-size:17px; margin-bottom:15px;margin-left:15px;color:#8f8f8f">With over 50 years experience in engineering practices, we provide unmatched expertise through exceptional craftsmanship and efficiency.</h1>
-            <h1 style="margin-right: 15px;text-align:center;font-size:17px; margin-bottom:15px;margin-left:15px;color:#8f8f8f">Build on your lot or ours, or we will help you find a lot in Belton, Temple, Morgan's Point, Salado, Holland, Rogers, Jarrell, or anywhere in Central Texas.</h1>
-            <h1 style="margin-right: 15px;text-align:center;font-size:17px; margin-bottom:15px;margin-left:15px;color:#8f8f8f">Give us a call:  we will demonstrate how we stand out amongst custom builders!</h1>
-        </div>
-        <br><br>
-        <br><br>
-        <div class=footer>
-            <p>WE PAY COMMISSIONS: on Stellar's Lot, 4% of lot price paid at time of lot closing + 1.5% of lot price as finder fee paid at closing of completed home.  On customer's lot (not our lot), 1% of construction price paid at final closing of completed home.</p>
-        </div>
-      </div>
-      <script>
-  jQuery(document).ready(function($) {
-  $('#full-width-slider').royalSlider({
-    arrowsNav: true,
-    imageScalePadding: 0,
-    loop: true,
-    keyboardNavEnabled: true,
-    controlsInside: false,
-    arrowsNavAutoHide: false,
-    autoScaleSlider: true, 
-    controlNavigation: 'bullets',
-    navigateByClick: false,
-    startSlideId: 0,
-    autoPlay: {
-    		enabled: true,
-        pauseOnHover: false,
-        stopAtAction: false,
-        delay: 2500
-    	},
-    transitionType:'move',
-    globalCaption: false,
-    deeplinking: {
-      enabled: true,
-      change: false
-    },
-  });
-});
-    </script>
-    </body>
-</html>
--->
 <!doctype html>
 <html lang="en" class="h-100">
   <head>
@@ -108,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css.css">
     <link rel="stylesheet" href="fontawesome-pro-5.13.1-web\css\all.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -152,7 +51,7 @@
   <p style="margin-bottom: auto;">Email: <a style="color:#6c757d;text-decoration: underline;" href=mailto:info@stellarhomes.us>info@stellarhomes.us</a></p>
   <p style="margin-bottom: auto;">Phone: <a style="color:#6c757d;text-decoration: underline;"href=tel:254-933-8807>254-933-8807</a></p>
 </div>
-<main role="main">
+<main role="main" >
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -205,7 +104,6 @@
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
-    
       <div class="container marketing">
     
         <!-- Three columns of text below the carousel -->
@@ -257,7 +155,7 @@
             <p class="lead">Give us a call:  we will demonstrate how we stand out amongst custom builders!</p>
           </div>
           <div class="col-md-5">
-            <img class="card-img-top rounded mb-4" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us\images\stel_imag\1535AV\1.JPG"">
+            <img class="card-img-top rounded mb-4" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us\images\stel_imag\1535AV\1.JPG">
           </div>
         </div>
     
@@ -268,6 +166,19 @@
       </div><!-- /.container -->
      <br><br><br><br>
 </main>
+<script>
+    // init controller
+    $(function() {
+    var controller = new ScrollMagic.Controller();
+    var containerScene = new ScrollMagic.Scene({
+        triggerElement: '#container',
+        duration: 500
+    })
+    .setPin('#block')
+    .addIndicators()
+    .addTo(controller);
+});
+</script>
 </body>
 <footer style="position: fixed;width: 100%; height:auto; line-height: 10px;padding-bottom:15px;z-index:100;" class="footer">
   <div class="container">

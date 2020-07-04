@@ -9,6 +9,9 @@ hr.solid {
   margin-right: 15vh;
   margin-left: 2vh
 }
+div[aria-label="Page 1 of 7"] {
+  display: none;
+}
 /*MAP*/
 body {
   padding: 0;
@@ -16,6 +19,14 @@ body {
 }
 html, body, #map {
   height: 100%;
+}
+.wrap {
+  margin: 50px auto;
+}
+
+.cropimg{
+  width: 200px; 
+  height: 200px; 
 }
 
 p { margin:0 
