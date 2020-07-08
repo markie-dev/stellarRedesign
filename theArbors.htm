@@ -1,182 +1,236 @@
 <html>
-    <head>
-        <title>Stellar Homes</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css.css">
-        <link rel="stylesheet" href="royalslider/royalslider.css">
-        <link rel="stylesheet" href="royalslider\skins\universal\rs-universal.css">
-        <script src='royalslider/jquery-1.8.3.min.js'></script>
-        <script src="royalslider/jquery.royalslider.min.js"></script>
-        <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
-        <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
-        <!-- CSS only -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <style>
-          .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-          }
-    
-          @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-              font-size: 3.5rem;
-            }
-          }
-        </style>
-            <link href="sticky-footer.css" rel="stylesheet">
-      </head>
-       <body>
-        <header class="header">
-          <a style="padding: 15px 20px;"href="index.html" class="logo"><img width= 75 height=35 src=SH-icon.gif></a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-            <ul class="menu">
-              <li style="color:grey"><a  style="color:#000" href="forSale.htm">For Sale</a></li>
-              <li style="color:grey"><a style="color:#000"  href="forLease.htm">For Lease</a></li>
-              <li style="color:grey"><a  style="color:#000" href="housePlans.htm">House Plans</a></li>
-              <li style="color:grey"><a  style="color:#000" href="aboutUs.htm">About Us</a></li>
-            </ul>
-        </header>
-        <div class=banner>
-          <br><br><br>
-          <p style="margin-bottom: auto;">Email: <a style="color:#6c757d;text-decoration: underline;" href=mailto:info@stellarhomes.us>info@stellarhomes.us</a></p>
-          <p style="margin-bottom: auto;">Phone: <a style="color:#6c757d;text-decoration: underline;"href=tel:254-933-8807>254-933-8807</a></p>
-        </div>
-        <div id="gallery-2" class="royalSlider rsUni shadow">
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/102Arbor/1.jpg" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/206/2.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/206/3.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/206/4.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/206/5.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604Newberry/1.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604Newberry/2.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604Newberry/3.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604Newberry/4.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604Newberry/5.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/605/1.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/605/2.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/605/3.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/605/4.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/605/5.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/1646AV/1.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/1646AV/2.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/1646AV/3.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/1646AV/4.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/1646AV/5.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_2.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_6.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_4.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_3.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_5.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_1.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_2.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_3.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_4.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_5.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_1.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_2.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_3.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_4.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_5.JPG" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/102Arbor/1.jpg" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/102Arbor/1.jpg" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/102Arbor/1.jpg" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/102Arbor/1.jpg" data-rsw="2048" data-rsh="1536"></a>
-          <a class="rsImg" data-rsbigimg="http://www.stellarhomes.us/images/stel_imag/LC/1.jpg" href="http://www.stellarhomes.us/images/stel_imag/206/1.JPG" data-rsw="2048" data-rsh="1536"></a>
-        </div>
-        <main role="main" class="flex-shrink-0">
-          <div class=container>
-          <body class="d-flex flex-column h-100">
-            <br><br>
-            <div>
-              <h1 class="mb-0" style="color:black; text-align:left; font-weight: 600;">The Arbors</h1><br>
-              <h2 class="mt-0 mb-0" style="color:#38406d; text-align:left; font-weight: 600;">Little River - Academy</h2><br>
-              <h2 class="mt-0" style="color:#38406d; text-align:left;line-height: 0px; font-weight: 600;">$256,000+</h2><br>
-            </div>
-              <hr>
-              <div>
-                <h1 style="color:black;font-weight: 600;">Overview</h1>
-                <br>
-                <ul>
-                  <li>Prestigious Designs</li>
-                  <li>Only 10 Minutes from VA and Scott & White Hospital</li>
-                  <li>Enter East of Kings off HWY 436</li>
-                  <li>Heavily wooded, Large Lots</li>
-                  <li>Good People, Good Schools, Good Churches: AND NO CITY TAXES</li>
-                  <li>Security, Sprinkler System, Fully Sodded</li>
-                  <li>City Water & Sewer</li>
-                  <li><a style="text-decoration: underline;" href="http://www.academy.k12.tx.us/">Academy Independent School District</a> (assigned schools)</li>
-            <li><a style="text-decoration: underline;" href="http://www.tisd.org/">Temple Independent School District</a> (No transfer fee to attend Temple schools)</li>
-            <li><a style="text-decoration: underline;" href="http://www.ctcslions.com/">Central Texas Christian School</a> (private)</li>
-            <li><a style="text-decoration: underline;" href="http://www.stellarhomes.us/Arbors_resitrictions.pdf">Restrictions</a></li>
-            <li><a style="text-decoration: underline;" href="http://www.stellarhomes.us/images/stel_imag/WillowCt_911.jpg">Phase 2 Plats </a>&nbsp;(NOW OPEN)<sub>&nbsp;<a style="text-decoration: underline;" href="http://www.stellarhomes.us/images/stel_imag/arbors911.pdf">Phase 1 lots</sub></a></li>
+        <head>
+            <title>Stellar Homes</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="css.css">
+            <link rel="stylesheet" href="fontawesome-pro-5.13.1-web\css\all.css">
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+            <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+            <!-- CSS only -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+            <style>
+              .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+              }
+        
+              @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                  font-size: 3.5rem;
+                }
+              }
+            </style>
+                <link href="sticky-footer.css" rel="stylesheet">
+          </head>
+           <body>
+            <header class="header">
+              <a style="padding: 15px 20px;"href="index.html" class="logo"><img width= 75 height=35 src=SH-icon.gif></a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                  <li style="color:grey"><a  style="color:#000" href="forSale.htm">For Sale</a></li>
+                  <li style="color:grey"><a style="color:#000"  href="forLease.htm">For Lease</a></li>
+                  <li style="color:grey"><a  style="color:#000" href="housePlans.htm">House Plans</a></li>
+                  <li style="color:grey"><a  style="color:#000" href="aboutUs.htm">About Us</a></li>
                 </ul>
-              </div>
-              <div><br>
-                  <h1 style="color:black;font-weight: 600;">Features</h1>
-                  <br>
-                  <ul>
-                    <li>The homes in The Arbors subdivision are rich-feeling with large back yards, tall ceilings, and elegant living areas.</li>
-                    <li>Great care is given to all facets of the construction process including the meticulous design of the foundation, framing, plumbing and other non-visible areas of the home. While many homebuilders have switched to cheaper construction methods, Stellar has chosen to maintain its quality position with such items as high efficiency polyurethane insulation (icynene) in attics and walls, extended warranty Termidor termite barrier FULL pre-treat, slip sheet protection for tile areas, 16" center studs and joists.</li>
-                    <li>Each home will be further accented by elegant fixtures and faucets and high grade flooring in a color-coordinated fashion.</li>
-                  </ul><br>
-                  <h1 style="color:black;font-weight: 600;">Location</h1>
-                  <br>
-                  <ul>
-                    <li>The Arbors subdivision offers an ideal setting for country living within a small town setting. Only a few minutes south of the VA and Scott and White hospitals, this quiet family oriented community features serene nature setting with plenty of nature and tall hardwood trees, while still offering all the comforts of city services.</li><br>
-                    <li>Located just west of the high school on FM 436, THE ARBORS gives the nature lover reason to be part of this sleepy community. Why not get out of the proverbial rat-race and be part of some peaceful living?</li>
-                    </ul>
-              </div>
-              <br>
-              
-            <div class=shadow id='map' style='width: auto; height: 300px;'></div>
-            <script>
-              mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY3VzZGUyMyIsImEiOiJja2MwcHo2NzcxbWEyMnNxZDduMDd0cHhnIn0.LldKpupBzohSRo2XlT2dQQ';
-              var map = new mapboxgl.Map({
-              container: 'map',
-              style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-              center: [-97.360173, 30.987252], // starting position [lng, lat]
-              zoom: 11 // starting zoom
-              });
-              var marker = new mapboxgl.Marker()
-      .setLngLat([-97.360173, 30.987252])
-      .setPopup(new mapboxgl.Popup().setHTML("<a href=http://maps.apple.com/?daddr=102+Arbor+Dr,+Little+River-Academy+TX><h1 style=font-size:20pt;>102 Arbor Dr</h1></a>"))
-      .addTo(map);
-              </script>
+            </header>
+            <div class=banner>
+              <br><br><br>
+              <p style="margin-bottom: auto;">Email: <a style="color:#6c757d;text-decoration: underline;" href=mailto:info@stellarhomes.us>info@stellarhomes.us</a></p>
+              <p style="margin-bottom: auto;">Phone: <a style="color:#6c757d;text-decoration: underline;"href=tel:254-933-8807>254-933-8807</a></p>
             </div>
-        <br><br>
-        <br><br>
-      <script>
-      jQuery(document).ready(function() {
-        $('#gallery-2').royalSlider({
-          fullscreen: {
-            enabled: false,
-            nativeFS: true
-          },
-          controlNavigation: 'none',
-          thumbs: {
-            orientation: 'vertical',
-            appendSpan: false
-          },
-          transitionType:'fade',
-          autoScaleSlider: true, 
-          autoScaleSliderWidth: 900,     
-          autoScaleSliderHeight: 300,
-          loop: true,
-          arrowsNav: true,
-          keyboardNavEnabled: true
-
-        });
-      });
-      </script>
-      </body>
-      <footer style="position: fixed;width: 100%; height:auto; line-height: 12px;padding-bottom:15px;z-index:100;" class="footer">
-        <div class="container">
-          <span style="font-size:8pt;"class="text-muted text">WE PAY COMMISSIONS: on Stellar's Lot, 4% of lot price paid at time of lot closing + 1.5% of lot price as finder fee paid at closing of completed home.  On customer's lot (not our lot), 1% of construction price paid at final closing of completed home.</span>
-        </div>
-        </footer>
-      </html>
+            <main role="main" class="flex-shrink-0">
+              <div style="max-width:770px"class=container>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/102Arbor/1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/206/1.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/206/2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/206/3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/206/4.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/206/5.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604Newberry/1.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604Newberry/2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604Newberry/3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604Newberry/4.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604Newberry/5.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/605/1.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/605/2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/605/3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/605/4.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/605/5.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/1646AV/1.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/1646AV/2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/1646AV/3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/1646AV/4.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/1646AV/5.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_6.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_4.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/604AC/604AC_5.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_1.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_4.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/603AC/603AC_5.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_1.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_2.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_3.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_4.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="http://www.stellarhomes.us/images/stel_imag/104Arbor/104_5.JPG" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              <body class="d-flex flex-column h-100">
+                  <div class="card shadow">
+                    <div class="card-footer text-muted">
+                        <i class="fas fa-dollar-sign"></i>&nbsp;256,000+&nbsp;
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">The Arbors</h3>
+                      <h4 style="line-height: 0px;"class="card-title mb-4">Little River - Academy</h4>
+                      <p class="card-text">
+                        <ul style="padding-inline-start: 19px;">
+                          <li>Prestigious Designs</li>
+                          <li>Only 10 Minutes from VA and Scott & White Hospital</li>
+                          <li>Enter East of Kings off HWY 436</li>
+                          <li>Heavily wooded, Large Lots</li>
+                          <li>Good People, Good Schools, Good Churches: AND NO CITY TAXES</li>
+                          <li>Security, Sprinkler System, Fully Sodded</li>
+                          <li>City Water & Sewer</li>
+                          <li><a style="text-decoration: underline;"href="http://www.academy.k12.tx.us/">Academy Independent School District</a> (assigned schools)</li>
+                    <li><a style="text-decoration: underline;" href="http://www.tisd.org/">Temple Independent School District</a> (No transfer fee to attend Temple schools)</li>
+                    <li><a style="text-decoration: underline;" href="http://www.ctcslions.com/">Central Texas Christian School</a> (private)</li>
+                    <li><a style="text-decoration: underline;" href="http://www.stellarhomes.us/Arbors_resitrictions.pdf">Restrictions</a></li>
+                    <li><a style="text-decoration: underline;" href="http://www.stellarhomes.us/images/stel_imag/WillowCt_911.jpg">Phase 2 Plats </a>&nbsp;(NOW OPEN)<sub>&nbsp;<a style="text-decoration: underline;" href="http://www.stellarhomes.us/images/stel_imag/arbors911.pdf">Phase 1 lots</sub></a></li>
+                        </ul>
+                        &nbsp;&nbsp;<a href="http://maps.apple.com/?daddr=102+Arbor+Dr,+Little+River-Academy+TX"><button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-map-marker-alt"></i></button></a>
+                        <br><br>
+                          <h3>Features</h3>
+                          <ul style="padding-inline-start: 19px;">
+                            <li>The homes in The Arbors subdivision are rich-feeling with large back yards, tall ceilings, and elegant living areas.</li>
+                            <li>Great care is given to all facets of the construction process including the meticulous design of the foundation, framing, plumbing and other non-visible areas of the home. While many homebuilders have switched to cheaper construction methods, Stellar has chosen to maintain its quality position with such items as high efficiency polyurethane insulation (icynene) in attics and walls, extended warranty Termidor termite barrier FULL pre-treat, slip sheet protection for tile areas, 16" center studs and joists.</li>
+                            <li>Each home will be further accented by elegant fixtures and faucets and high grade flooring in a color-coordinated fashion.</li>
+                          </ul><br>
+                          <h3>Location</h3>
+                          <ul style="padding-inline-start: 19px;">
+                            <li>The Arbors subdivision offers an ideal setting for country living within a small town setting. Only a few minutes south of the VA and Scott and White hospitals, this quiet family oriented community features serene nature setting with plenty of nature and tall hardwood trees, while still offering all the comforts of city services.</li><br>
+                            <li>Located just west of the high school on FM 436, THE ARBORS gives the nature lover reason to be part of this sleepy community. Why not get out of the proverbial rat-race and be part of some peaceful living?</li>
+                            </ul>
+                      </p>
+                    </div>
+                  </div>
+                  <br>
+                  
+                <div class=shadow id='map' style='width: auto; height: 300px;'></div>
+                <script>
+                  mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY3VzZGUyMyIsImEiOiJja2MwcHo2NzcxbWEyMnNxZDduMDd0cHhnIn0.LldKpupBzohSRo2XlT2dQQ';
+                  var map = new mapboxgl.Map({
+                  container: 'map',
+                  style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+                  center: [-97.360196, 30.987214], // starting position [lng, lat]
+                  zoom: 11 // starting zoom
+                  });
+                  var marker = new mapboxgl.Marker()
+                  .setLngLat([-97.360196, 30.987214])
+                  .setPopup(new mapboxgl.Popup().setHTML("<a href=http://maps.apple.com/?daddr=102+Arbor+Dr,+Little+River-Academy+TX><h1 style=font-size:20pt;>102 Arbor Dr</h1></a>"))
+                  .addTo(map);
+                  </script>
+                </div>
+            <br><br>
+            <br><br>
+          </body>
+          <footer style="position: fixed;width: 100%; height:auto; line-height: 12px;padding-bottom:15px;z-index:100;" class="footer">
+            <div class="container">
+              <span style="font-size:8pt;"class="text-muted text">WE PAY COMMISSIONS: on Stellar's Lot, 4% of lot price paid at time of lot closing + 1.5% of lot price as finder fee paid at closing of completed home.  On customer's lot (not our lot), 1% of construction price paid at final closing of completed home.</span>
+            </div>
+            </footer>
+          </html>
+      
