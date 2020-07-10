@@ -108,7 +108,7 @@
       <div class="container marketing">
     
         <!-- Three columns of text below the carousel -->
-        <div class="row mb-5 text-center">
+        <div class="row mb-5 text-center item">
           <div class="col-lg-6 ">
             <a href=dfModelHome.htm><img class="card-img-top rounded mb-4" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="http://www.stellarhomes.us/images/stel_imag/5823/1.JPG"></a>
             <h2 class="text-center mb-4">Deerfield Model Home</h2>
@@ -126,7 +126,7 @@
     
         <hr class="featurette-divider">
     
-        <div class="row featurette">
+        <div class="row featurette item">
           <div class="col-md-7">
             <h2 class="featurette-heading mb-3">Experience Quality. <span style="color:#38406d"class="">See for yourself.</span></h2>
             <p class="lead">With over 50 years experience in engineering practices, we provide unmatched expertise through exceptional craftsmanship and efficiency.</p>
@@ -176,5 +176,33 @@
       <p style="margin-bottom: auto;">Phone: <a style="color:#6c757d;text-decoration: underline;"href=tel:254-933-8807>254-933-8807</a></p>
     </span>
   </div>
+  <script>
+    //Only Use the IntersectionObserver if it is supported
+if (IntersectionObserver) {
+    //When the element is visible on the viewport, add the animated class so it creates the animation.
+    let callback = function(entries) {
+        entries.forEach(entry => {
+            //if the element is visible, add the animated class
+            if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+                entry.target.classList.add('animated');
+            }
+
+        });
+    }
+
+    //Create the observer
+    let observer = new IntersectionObserver(callback, {
+        root: null,
+        threshold: 0.3
+    });
+
+    //Get and observe all the items with the item class
+    let items = document.querySelectorAll('.item');
+    items.forEach((item) => {
+        item.classList.add('animation');
+        observer.observe(item);
+    });
+}
+</script>
   </footer>
 </html>
