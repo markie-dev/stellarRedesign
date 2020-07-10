@@ -12,6 +12,21 @@ hr.solid {
 div[aria-label="Page 1 of 7"] {
   display: none;
 }
+.animation {
+  opacity: 0;
+  transition: opacity 1s, transform 1.3s;
+}
+
+.animated {
+  opacity: 1;
+  transform: translateY(-2rem);
+}
+
+@media screen and (max-width:500px) {
+  .item {
+      width: 100%;
+  }
+}
 .banner-space{
   margin-top:66px;
 }
