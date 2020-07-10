@@ -12,6 +12,9 @@ hr.solid {
 div[aria-label="Page 1 of 7"] {
   display: none;
 }
+.banner-space{
+  margin-top:66px;
+}
 /*MAP*/
 body {
   padding: 0;
